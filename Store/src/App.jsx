@@ -11,12 +11,13 @@ function App() {
 		<div className="container">
 			<Header />
 
-			<Sidebar />
-			
-			<Routes>
-				<Route element={<Home />} />
-			</Routes>
-
+			<div className="main">
+				<Sidebar />
+				
+				<Routes>
+					<Route element={<Home />} />
+				</Routes>
+			</div>
 			<Footer />
 		</div>
 	</div>
