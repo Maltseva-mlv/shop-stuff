@@ -1,0 +1,41 @@
+.sidebar{
+    width: 25%;
+    height: 423px;
+    margin-right: 20px;
+    background: #191919;  
+    border-radius: 6px;
+}
+.sidebar__inner{
+    padding: 30px 22px;
+}
+
+.sidebar__title{
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+}
+
+.nav__categories{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__link{
+    font-weight: 500;
+    font-size: 16px;
+
+    text-decoration: none;
+    color: #576067;
+    margin-bottom: 12px;
+
+    transition: .3s linear;
+
+    &:hover{
+        color: #8B57C6;
+    }
+}
+.active-link {
+    color: #8B57C6;
+}
